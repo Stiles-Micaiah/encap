@@ -1,0 +1,114 @@
+body {
+background-image: url(giphy.gif);
+
+background-size: center;
+}
+
+#stars {
+  width: 100%;
+  height: 78vh;
+}
+
+
+#health-readout {
+  position: absolute;
+
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% {  transform: rotate(359deg); }
+}
+#starship {
+  animation: spin 1s linear infinite;
+  padding-top: 0%;
+  height: 10vh;
+  width: auto;
+
+}
+#player-col {
+  margin-left: 47vw;
+  margin-right: auto;
+
+
+}
+#enemyShip {
+  padding-top: 0%;
+  height: 20vh;
+  width: auto;
+
+}
+#enemy-col {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* @keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% {  transform: rotate(359deg); }
+} */
+
+
+.lazer-btn-txt {
+  text-shadow: 0px 0px 20px #26ff00,0px 0px 20px #26ff00,0px 0px 20px #26ff00;
+  color: #ffae00;
+}
+.Wave-btn-txt {
+  text-shadow: 0px 0px 20px #ff00ea,0px 0px 20px #ff00ea,0px 0px 20px #ff00aa;
+  color: #ae00ff;
+}
+.Plasma-btn-txt {
+  text-shadow: 0px 0px 20px #b40505,0px 0px 20px #b40505,0px 0px 20px #b40505;
+  color: #ff0000;
+}
+.Phazon-btn-txt {
+  text-shadow: 0px 0px 20px #00aeff,0px 0px 20px #00aeff,0px 0px 20px #00aeff;
+  color: #0051ff;
+}
+.reset-btn-txt {
+  text-shadow: 0px 0px 15px #fffb00,0px 0px 15px #fffb00,0px 0px 15px #fffb00;
+  color: #5991f8;
+}
+#diffusion-btn {
+    text-shadow: 0px 0px 20px #ff00aa,0px 0px 20px #ffee00,0px 0px 20px #3700ff;
+  color: #00ff22;
+}
+#iceDiffusion {
+  text-shadow: 0px 0px 20px #ffffff,0px 0px 20px #ffffff,0px 0px 20px #ffffff;
+  color: #446cb6;
+}
+#powerDiffusion {
+  text-shadow: 0px 0px 20px #ffe600,0px 0px 20px #8f8d0b,0px 0px 20px #fbff00;
+  color: #f33131;
+}
+#phazonInfusion {
+  text-shadow: 0px 0px 20px #00b7ff,0px 0px 20px #2600ff,0px 0px 20px #00aeff;
+  color: #4486ff;
+}
+
+
+#attack-ul>ul  {
+    /* float: left; */
+    list-style: none;
+    margin-left: -4rem;
+    margin-top: 18vh;
+
+}
+#attack-ul>ul>li {
+  padding-bottom: 4rem;
+}
+#li-needed {
+margin-top: 4vh;
+}
+#diffusion-dropdown {
+  color: #0051ff;
+  background-color: #2f718100
+}
+
+
+
+#ghj {
+margin-left: auto;
+margin-right: auto;
+
+
+}
